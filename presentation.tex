@@ -33,6 +33,7 @@
 \usepackage[colorlinks=true, a4paper=true, pdfstartview=FitV,
 linkcolor=black, citecolor=mygray, urlcolor=black]{hyperref}
 
+\DeclareMathOperator*{\argmax}{arg\,max}
 
 %formating routine
 \titleformat{\subsection}[block]{\bfseries{\hspace{2em}}}{\thesubsection}{1em}{}
@@ -148,15 +149,22 @@ linkcolor=black, citecolor=mygray, urlcolor=black]{hyperref}
 \section{Introduction}
 \label{sec:Introduction}
 
-Operant conditioning is a special way of forming reflexes (involuntary movements in response to a stimulus), that implies reinforcing a reaction that occurs spontaneously, that is, due to the consequences: reinforcement or punishment. The concept of operant conditioning was introduced by Burrhus Frederic Skinner in his book «The Behavior of Organisms» \cite{Jones1939}, although it was first extensively studied by Edward L. Thorndike \cite{Thorndike1898} a few decades earlier. There is a number of studies on brain activation evoked by the operant conditioning. A group of brain structures responsible for the operant conditioning is widely recognized as part of the rewarding system – neural network responsible for emotions, incentive salience and learning \cite{Schultz2015}. 
+Operant conditioning is a special way of forming reflexes (involuntary movements in response to a stimulus), that implies reinforcing a reaction that occurs spontaneously, that is, due to the consequences: reinforcement or punishment. The concept of operant conditioning was introduced by Burrhus Frederic Skinner in his book «The Behavior of Organisms» \cite{Jones1939}, although it was first extensively studied by \cite{Thorndike1898} a few decades earlier. There is a number of studies on brain activation evoked by the operant conditioning. A group of brain structures responsible for the operant conditioning is widely recognized as part of the rewarding system – neural network responsible for emotions, incentive salience and learning \cite{Schultz2015}. 
 
 Neurofeedback is a procedure that involves real-time displays of brain activity to reward a subject \cite{Kamiya2011}. According to definition, it appears to be a reinforcement learning process and its efficiency critically depends on the extent to which the feedback signal is matched to the particular subject. Feedback signal latency, color, shape, pitch, timbre, etc. are the ergonomic parameters that may potentially strongly affect the efficiency of learning and the intensity of plastic changes – brain’s ability to change throughout life. Finding the proper ergonomic settings for each particular patient has a potential to boost the efficacy of the neurofeedback therapy and to further prove its usefulness in treating various neurological diseases.
 
+\newpage
+\section{Hypothesis}
+\label{sec:Hypothesis}
+
+\subsection{Summary}
+\label{sec:Hypothesis:Summary}
+
 On the one hand, considering the fact that many animals live without a well developed neocortex, like reptiles and anamniotes, many studies seem to focus on the role of basal ganglia (a group of subcortical structures) in the process of learning. For example, it was suggested that the amygdala, an important part of basal ganglia, plays a chemosensory role and also takes part in the formation of emotions, since the amygdala actually participates in mediating emotional reactions to chemical signals \cite{Martinez-Garcia2010}. Anatomical studies have shown that the amygdala is connected to the olfactory bulb, which affects the perception of sexual pheromones. Although, such results might stress the role of basal ganglia in the process of learning, they do not seem to be absolutely relevant to humans, as they have a more developed neocortex that shares some functions of basal ganglia in the animal brain.
 
-On the other hand, the term "cognitive control" has recently been developed, which includes the function of reinforcement learning \cite{Cockburn2011}. Cognitive control is a collective term describing interrelated processes linked to flexible, purposeful behavior. For example, Ridderinkhof et al. \cite{Ridderinkhof2004} in their review of primate and human studies, along with a meta-analysis of the human functional neuroimaging literature has shown that the medial frontal cortex, or rather its part, anterior cingulate cortex, is believed to be involved in such processes as monitoring the need for increasing cognitive control; behavior correction by sending signals to other cortical structures. Comparing this work to the previous one, we may say that the researchers stress the role of neocortex forgetting about the basal ganglia, which might be insufficient for our research.
+On the other hand, the term «cognitive control» has recently been developed, which includes the function of reinforcement learning \cite{Cockburn2011}. Cognitive control is a collective term describing interrelated processes linked to flexible, purposeful behavior. For example, Ridderinkhof et al. \cite{Ridderinkhof2004} in their review of primate and human studies, along with a meta-analysis of the human functional neuroimaging literature has shown that the medial frontal cortex, or rather its part, anterior cingulate cortex, is believed to be involved in such processes as monitoring the need for increasing cognitive control; behavior correction by sending signals to other cortical structures. Comparing this work to the previous one, we may say that the researchers stress the role of neocortex forgetting about the basal ganglia, which might be insufficient for our research.
 
-As we may see from the works we’ve covered, although the "reward system" and cognitive control are terms that represent different concepts, they are interrelated, because similar structures correlate with their activation, namely the anterior cingulate cortex; different researchers attribute similar functions to both systems; and the reward system, and cognitive control are associated with targeted behavior, and therefore with operant conditioning. Using an integrative approach, suggested by Cockburn and Frank \cite{Cockburn2011}, taking under the consideration both the role of basal ganglia and the role of neocortex, may help to interpret data received from human reward system. For instance, cognitive control theory of beta-wave part may be applied to our research as it attracts our scientific interest.
+As we may see from the works we’ve covered, although the «reward system» and cognitive control are terms that represent different concepts, they are interrelated, because similar structures correlate with their activation, namely the anterior cingulate cortex; different researchers attribute similar functions to both systems; and the reward system, and cognitive control are associated with targeted behavior, and therefore with operant conditioning. Using an integrative approach, suggested by Cockburn and Frank \cite{Cockburn2011}, taking under the consideration both the role of basal ganglia and the role of neocortex, may help to interpret data received from human reward system. For instance, cognitive control theory of beta-wave part may be applied to our research as it attracts our scientific interest.
 
 Why should we integrate these two concepts? The fact is that studies for cognitive control have rich data linking the learning processes with brain rhythms and electroencephalography.
 
@@ -166,11 +174,37 @@ Secondly, the most popular theory of frontal beta waves suggests that the power 
 
 Our main concern was that such complex functions as, for example, the processing of the answer, may not reach the threshold of awareness, but will still have physiological correlates, which Gaal and Lamme have shown in one of their studies \cite{VanGaal2012}.
 
-Biological feedback is a process in which the subject is given data about his physiological state, as a result of which the subject can somehow manipulate it. The method of neural feedback is a special case of biological feedback, when physiological data are obtained from the nervous system. The method of neural feedback has been used since the 1960s. However, it is not widespread enough, in favor of invasive therapy, because it cannot be accurately established during the use of the neural feedback method, whether the patient is on the mend or not. The judgements can only be made after a while whether the seizures are repeated or not. Or, in extreme cases, introspectively. This problem even has a special name: "neurofeedback inefficiency problem". With the advent of methods of neurovisualization, it became clear that the effectiveness of training can be associated with the activation in the frontal areas of the cortex of the cerebral hemispheres, what we’ve described above. Therefore, probably today, a method of monitoring the learning process in the paradigm of neural feedback can be found. During the operant conditioning of any rhythm in the neural feedback paradigm, it is necessary to control beta-rhythm activation in the frontal areas during effective training, which is likely to be related to maintaining the current motor or cognitive state associated with effective learning \cite{Engel2010}.
+Biological feedback is a process in which the subject is given data about his physiological state, as a result of which the subject can somehow manipulate it. The method of neural feedback is a special case of biological feedback, when physiological data are obtained from the nervous system. The method of neural feedback has been used since the 1960s. However, it is not widespread enough, in favor of invasive therapy, because it cannot be accurately established during the use of the neural feedback method, whether the patient is on the mend or not. The judgements can only be made after a while whether the seizures are repeated or not. Or, in extreme cases, introspectively. This problem even has a special name: «neurofeedback inefficiency problem». With the advent of methods of neurovisualization, it became clear that the effectiveness of training can be associated with the activation in the frontal areas of the cortex of the cerebral hemispheres, what we’ve described above. Therefore, probably today, a method of monitoring the learning process in the paradigm of neural feedback can be found. During the operant conditioning of any rhythm in the neural feedback paradigm, it is necessary to control beta-rhythm activation in the frontal areas during effective training, which is likely to be related to maintaining the current motor or cognitive state associated with effective learning \cite{Engel2010}.
+
+\subsection{Learning Process}
+\label{sec:Hypothesis:Learning Process}
+
+\subsubsection{History Of Learning Process}
+\label{sec:Hypothesis:Learning Process:History Of Learning Process}
+
+
+
+\subsubsection{Modern Concepts Of The Learning Process}
+\label{sec:Hypothesis:Learning Process:Modern Concepts Of The Learning Process}
+
+\subsection{Bioelectricity}
+\label{sec:Hypothesis:Bioelectricity}
+
+\subsection{Neurofeedback}
+\label{sec:Hypothesis:Neurofeedback}
+
+\subsubsection{Definition}
+\label{sec:Hypothesis:Neurofeedback:Definition}
+
+\subsubsection{History And Application}
+\label{sec:Hypothesis:Neurofeedback:History And Application}
 
 \newpage
 \section{Method}
 \label{sec:Method}  
+
+\subsection{Summary}
+\label{sec:Methods:Summary}
 
 So, in the experiment, the neurofeedback method was used. It was implemented with the help of NFBLab software (nfb-lab.readthedocs.io). Using this method, we decided to train the occipital alpha rhythm of the subject, as it was the easiest one to evoke. The artificial training of this rhythm for healthy people does not lead to any disorders. The aim of the study was to reveal the correlates of effective learning in the frontal beta-rhythm associated with the performance of tasks. The design of the experiment was as follows.
 
@@ -180,9 +214,43 @@ Each session consisted of 4 experimental trials 10 minutes long each and mock vs
 
 For each participant we recorded the electroencephalography data for mock and real feedback conditions at 500 Hz sampling rate. The data were then filtered with a band-pass finite impulse response filter in 30 different frequency bands from 1-30 Hz range with 2 Hz bandwidth. The the data was cut to small pieces. The beginning of the piece was considered to be when the reinforcement was presented. The end of the stimuli was 1000 ms later. The data pieces from the two conditions (real and mock feedback) were contrasted using the common spatial pattern procedure. Common spatial pattern is a mathematical technique that separates a multivariate signal into subcomponents with maximum differences in variance between two windows \cite{Koles1990}. It is used in the field of digital signal processing to compare two types of data and to stress the difference between them.
 
-In order to establish the significance of the observed differences we performed non-parametric randomization test to obtain the p-values of null hypothesis of no significant changes between the real and mock feedback conditions \cite{Maris2007}. Next, a correction for the number of false detection rate was applied to the obtained p-value \cite{Benjamini2001}.
+In order to establish the significance of the observed differences we performed non-parametric randomization test to obtain the $p-values$ of null hypothesis of no significant changes between the real and mock feedback conditions \cite{Maris2007}. Next, a correction for the number of false detection rate was applied to the obtained $p-value$ \cite{Benjamini2001}.
 
 To test the effectiveness of the mathematical algorithm described above, we first decided to test the quality of the algorithm on conditions in which the activation is obviously distinguishable: on the eyes-open condition, when the occipital alpha-rhythm is absent, and on the eyes-closed condition, when the alpha rhythm is present.
+
+\subsection{Experimental Design}
+\label{sec:Methods:Experimental Design}
+
+\subsection{Data Analysis}
+\label{sec:Methods:Data Analysis}
+
+\subsubsection{Common Spatial Pattern}
+\label{sec:Methods:Data Analysis:Common Spatial Pattern}
+
+The common spatial pattern (CSP) technique maximizes the difference between two windows $X_{1}$ and $X_{2}$ of the multivariate signal for separating into additive subcomponents (Eq. 1). If $X_{i}$ is a matrix $n_{i} X t_{i}$, where $n_{i}$ – number of channel and $t_{i}$ – number of samples, such a problem can be solved by computing the two covariance matrices (Eq. 2) and the subsequent spectral decomposition of these two matrices (Eq. 3).
+
+The $CSP(X1, X2)$ function used in the following sections gets two windows of the multivariate signal as arguments and returns an eigenvalue corresponding to the analyzed component that should be used in the next statistical test.
+
+\begin{equation}
+w = \argmax_{w}{\frac{\left \| wX_{1} \right \|}{\left \| wX_{2} \right \|}}
+\end{equation}
+\begin{equation}
+C_{i} = \frac{X_{i}X^{T}_{i}}{t_{i}}
+\end{equation}
+
+\begin{equation}
+C^{-1}_{2}C_{1} = PDP^{-1}
+\end{equation}
+
+
+\subsubsection{Tikhonov Regularization}
+\label{sec:Methods:Data Analysis:Tikhonov Regularization}
+
+\subsubsection{Nonparametric Statistical Testing Of EEG Data}
+\label{sec:Methods:Data Analysis:Nonparametric Statistical Testing Of EEG Data}
+
+\subsubsection{False Discovery Rate Correction}
+\label{sec:Methods:Data Analysis:False Discovery Rate Correction}
 
 \newpage
 \section{Results}
@@ -201,6 +269,16 @@ Since we did not find any activation localized in the frontal regions that could
 We’re still not certain if the areas related to effective learning may be used to improve the technique of neural feedback, having the ability to monitor therapy in this paradigm and with the accuracy to establish whether this method is suitable for patients.
 
 \newpage
+\section*{Acknowledgements}
+\label{sec:Acknowledgements}
+\addcontentsline{toc}{section}{Acknowledgements}
+
+\newpage
+\section*{Appendices}
+\label{sec:Appendices}
+\addcontentsline{toc}{section}{Appendices}
+
+\newpage
 \bibliographystyle{apa}
-\bibliography{/Users/basilminkov/Scripts/latex/AlphaFeedback.bib}
+\bibliography{/Users/basilminkov/Scripts/latex/alpha_feedback/AlphaFeedback.bib}
 \end{document}
