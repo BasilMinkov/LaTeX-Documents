@@ -3,47 +3,51 @@ Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
 The top-level auxiliary file: presentation.aux
 The style file: apa.bst
 Database file #1: /Users/basilminkov/Scripts/latex/alpha_feedback/AlphaFeedback.bib.bib
+Warning--empty publisher in Buzsaki2009
+Warning--there's a number but no volume in Marban1998
 Warning--empty publisher in Martinez-Garcia2010
+Warning--empty publisher in Purves2004
+Warning--empty publisher in Rugg1995
 Warning--empty publisher in Thompson2009
-You've used 24 entries,
+You've used 38 entries,
             1940 wiz_defined-function locations,
-            651 strings with 9607 characters,
-and the built_in function-call counts, 11968 in all, are:
-= -- 1128
-> -- 704
-< -- 17
-+ -- 254
-- -- 254
-* -- 1181
-:= -- 2076
-add.period$ -- 69
-call.type$ -- 24
-change.case$ -- 247
-chr.to.int$ -- 24
-cite$ -- 26
-duplicate$ -- 358
-empty$ -- 694
-format.name$ -- 298
-if$ -- 2257
-int.to.chr$ -- 1
+            743 strings with 11962 characters,
+and the built_in function-call counts, 17531 in all, are:
+= -- 1656
+> -- 939
+< -- 28
++ -- 335
+- -- 334
+* -- 1692
+:= -- 3044
+add.period$ -- 108
+call.type$ -- 38
+change.case$ -- 354
+chr.to.int$ -- 37
+cite$ -- 44
+duplicate$ -- 563
+empty$ -- 1075
+format.name$ -- 396
+if$ -- 3319
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 21
-newline$ -- 120
-num.names$ -- 72
-pop$ -- 202
+missing$ -- 38
+newline$ -- 187
+num.names$ -- 114
+pop$ -- 301
 preamble$ -- 1
-purify$ -- 247
+purify$ -- 357
 quote$ -- 0
-skip$ -- 284
+skip$ -- 438
 stack$ -- 0
-substring$ -- 790
-swap$ -- 73
-text.length$ -- 4
+substring$ -- 1171
+swap$ -- 111
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 144
-warning$ -- 2
-while$ -- 90
+type$ -- 222
+warning$ -- 6
+while$ -- 137
 width$ -- 0
-write$ -- 306
-(There were 2 warnings)
+write$ -- 478
+(There were 6 warnings)

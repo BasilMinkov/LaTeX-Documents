@@ -1,10 +1,27 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{Benjamini and Hochberg}{1995}]{Benjamini1995}
+Benjamini, Y. and Hochberg, Y. (1995).
+\newblock {Controlling the false discovery rate: a practical and powerful
+  approach to multiple testing}.
+\newblock {\em Journal of the Royal Statistical Society Series B {\ldots}},
+  57:289--300.
+
 \bibitem[\protect\astroncite{Benjamini and Yekutieli}{2001}]{Benjamini2001}
 Benjamini, Y. and Yekutieli, D. (2001).
 \newblock {The control of the false discovery rate in multiple testing under
   dependency}.
 \newblock {\em Annals of Statistics}, 29(4):1165--1188.
+
+\bibitem[\protect\astroncite{Bollimunta et~al.}{2011}]{Bollimunta2011}
+Bollimunta, A., Mo, J., Schroeder, C.~E., and Ding, M. (2011).
+\newblock {Neuronal Mechanisms and Attentional Modulation of Corticothalamic
+  Alpha Oscillations}.
+\newblock {\em Journal of Neuroscience}, 31(13):4935--4943.
+
+\bibitem[\protect\astroncite{Buzs{\'{a}}ki}{2009}]{Buzsaki2009}
+Buzs{\'{a}}ki, G. (2009).
+\newblock {\em {Rhythms of the Brain}}.
 
 \bibitem[\protect\astroncite{Cockburn and Frank}{2011}]{Cockburn2011}
 Cockburn, J. and Frank, M.~J. (2011).
@@ -12,6 +29,13 @@ Cockburn, J. and Frank, M.~J. (2011).
   An integrative model of cingulate-striatal interactions and the ERN}.
 \newblock {\em Neural Basis of Motivational and Cognitive Control (Vol. 9)},
   pages 311--331.
+
+\bibitem[\protect\astroncite{Domino et~al.}{2009}]{Domino2009}
+Domino, E.~F., Ni, L., Thompson, M., Zhang, H., Shikata, H., Fukai, H., Sakaki,
+  T., and Ohya, I. (2009).
+\newblock {Tobacco smoking produces widespread dominant brain wave alpha
+  frequency increases}.
+\newblock {\em International Journal of Psychophysiology}, 74(3):192--198.
 
 \bibitem[\protect\astroncite{Engel and Fries}{2010}]{Engel2010}
 Engel, A.~K. and Fries, P. (2010).
@@ -59,11 +83,22 @@ Leins, U., Goth, G., Hinterberger, T., Klinger, C., Rumpf, N., and Strehl, U.
   Theta/Beta protocols}.
 \newblock {\em Applied Psychophysiology Biofeedback}, 32(2):73--88.
 
+\bibitem[\protect\astroncite{Luck}{2005}]{Luck2005}
+Luck, S.~J. (2005).
+\newblock {An Introduction to the Event-Related Potential Technique}.
+\newblock {\em Monographs of the Society for Research in Child Development},
+  78(3):388.
+
 \bibitem[\protect\astroncite{Luu and Tucker}{2001}]{Luu2001}
 Luu, P. and Tucker, D.~M. (2001).
 \newblock {Regulating action: Alternating activation of midline frontal and
   motor cortical networks}.
 \newblock {\em Clinical Neurophysiology}, 112(7):1295--1306.
+
+\bibitem[\protect\astroncite{Marban et~al.}{1998}]{Marban1998}
+Marban, E., Yamagishi, T., and Tomaselli, G.~F. (1998).
+\newblock {Structure and function of voltage-gated sodium channels.}
+\newblock {\em The Journal of physiology}, (Pt 3):647--57.
 
 \bibitem[\protect\astroncite{Maris and Oostenveld}{2007}]{Maris2007}
 Maris, E. and Oostenveld, R. (2007).
@@ -76,10 +111,28 @@ Mart{\'{i}}nez-Garc{\'{i}}a, F., Novejarque, A., and Lanuza, E. (2010).
 \newblock {Evolution of the amygdala in vertebrates}.
 \newblock In {\em Evolution of Nervous Systems}, volume~2, pages 255--334.
 
+\bibitem[\protect\astroncite{Ng}{2004}]{Ng2004}
+Ng, A.~Y. (2004).
+\newblock {Feature selection, L1 vs. L2 regularization, and rotational
+  invariance}.
+\newblock {\em Twenty-first international conference on Machine learning - ICML
+  '04}, page~78.
+
 \bibitem[\protect\astroncite{Othmer and Othmer}{2009}]{Othmer2009}
 Othmer, S. and Othmer, S.~F. (2009).
 \newblock {Post Traumatic Stress Disorder — The Neurofeedback Remedy}.
 \newblock {\em Biofeedback}, 37(1):24--31.
+
+\bibitem[\protect\astroncite{Purves et~al.}{2004}]{Purves2004}
+Purves, D., Augustine, G.~J., and Fitzpatrick, D. (2004).
+\newblock {\em {Neuroscience}}.
+
+\bibitem[\protect\astroncite{Rangaswamy et~al.}{2003}]{Rangaswamy2003}
+Rangaswamy, M., Porjesz, B., Chorlian, D.~B., Choi, K., Jones, K.~A., Wang, K.,
+  Rohrbaugh, J., O'Connor, S., Kuperman, S., Reich, T., and Begleiter, H.
+  (2003).
+\newblock {Theta power in the EEG of alcoholics}.
+\newblock {\em Alcoholism: Clinical and Experimental Research}, 27(4):607--615.
 
 \bibitem[\protect\astroncite{Rayegani et~al.}{2014}]{Rayegani2014}
 Rayegani, S.~M., Raeissadat, S.~A., Sedighipour, L., {Mohammad Rezazadeh}, I.,
@@ -98,10 +151,30 @@ Ridderinkhof, K.~R., Ullsperger, M., Crone, E.~A., and Nieuwenhuis, S. (2004).
 \newblock {The role of the medial frontal cortex in cognitive control.}
 \newblock {\em Science (New York, N.Y.)}, 306(5695):443--447.
 
+\bibitem[\protect\astroncite{Rugg and Coles}{1995}]{Rugg1995}
+Rugg, M.~D. and Coles, M.~G. (1995).
+\newblock {\em {Electrophysiology of mind: Event-related brain potentials and
+  cognition}}.
+
 \bibitem[\protect\astroncite{Schultz}{2015}]{Schultz2015}
 Schultz, W. (2015).
 \newblock {Neuronal Reward and Decision Signals: From Theories to Data}.
 \newblock {\em Physiological Reviews}, 95(3):853--951.
+
+\bibitem[\protect\astroncite{Skinner}{1950}]{Skinner1950}
+Skinner, B.~F. (1950).
+\newblock {Are theories of learning necessary?}
+\newblock {\em Psychological Review}, 57(4):193--216.
+
+\bibitem[\protect\astroncite{Skinner}{1971a}]{Skinner1971}
+Skinner, B.~F. (1971a).
+\newblock {Beyond Freedom and Dignity B. F. Skinner C}.
+\newblock {\em Beyond freedom and dignity}, pages 1--7.
+
+\bibitem[\protect\astroncite{Skinner}{1971b}]{Skinner1971a}
+Skinner, B.~F. (1971b).
+\newblock {Operant conditioning}.
+\newblock {\em The encyclopedia of education}.
 
 \bibitem[\protect\astroncite{Sonuga-Barke et~al.}{2013}]{Sonuga-Barke2013}
 Sonuga-Barke, E.~J., Brandeis, D., Cortese, S., Daley, D., Ferrin, M.,
@@ -144,6 +217,12 @@ Thorndike, E.~L. (1898).
 \newblock {Animal Intelligence: An Experimental Study of the Associative
   Processes in Animals.}
 \newblock {\em Psychological Review}, 5(5):551--553.
+
+\bibitem[\protect\astroncite{Tikhonov}{1963}]{Tikhonov1963}
+Tikhonov, A.~N. (1963).
+\newblock {Solution of Incorrectly Formulated Problems and the Regularisation
+  Method.pdf}.
+\newblock {\em Soviet Mathematics Doklady}, 4(4):1035--1038.
 
 \bibitem[\protect\astroncite{{Van Gaal} and Lamme}{2012}]{VanGaal2012}
 {Van Gaal}, S. and Lamme, V.~A. (2012).

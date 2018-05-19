@@ -30,6 +30,8 @@
 \usepackage{circuitikz}
 \usepackage{tcolorbox}
 \usepackage{lipsum}
+\usepackage{mathptmx}
+\usepackage{caption} % hypcap is true by default so [hypcap=true] is optional in \usepackage[hypcap=true]{caption}
 \usepackage[nottoc,notlot,notlof]{tocbibind}
 \definecolor{mygray}{gray}{0.4}
 \usepackage[top=2.5cm,bottom=2.5cm,right=2.5cm,left=2.5cm,bindingoffset=0cm]{geometry}
@@ -43,7 +45,7 @@ linkcolor=black, citecolor=mygray, urlcolor=black]{hyperref}
 \titleformat{\subsubsection}[block]{\bfseries{\hspace{3em}}}{\thesubsubsection}{1cm}{}
 \newcommand{\sectionbreak}{\pagebreak}
 \sectionfont{\centering}
-\renewcommand{\baselinestretch}{2.0}
+\renewcommand{\baselinestretch}{1.5}
 \captionsetup{compatibility=false}
 \setlength{\parindent}{0.5in}
 \setlength{\parskip}{6pt}
@@ -147,21 +149,36 @@ linkcolor=black, citecolor=mygray, urlcolor=black]{hyperref}
 }
 \addtocontents{toc}{\protect\thispagestyle{empty}}
 
+
+
+
 %All party here
 \newpage
 \section{Introduction}
 \label{sec:Introduction}
 
-Operant conditioning is a special way of forming reflexes (involuntary movements in response to a stimulus), that implies reinforcing a reaction that occurs spontaneously, that is, due to the consequences: reinforcement or punishment. The concept of operant conditioning was introduced by Burrhus Frederic Skinner in his book «The Behavior of Organisms» \cite{Jones1939}, although it was first extensively studied by \cite{Thorndike1898} a few decades earlier. There is a number of studies on brain activation evoked by the operant conditioning. A group of brain structures responsible for the operant conditioning is widely recognized as part of the rewarding system – neural network responsible for emotions, incentive salience and learning \cite{Schultz2015}. 
+Operant conditioning is a special way of forming reflexes (involuntary movements in response to a stimulus), that implies reinforcing a reaction that occurs spontaneously, that is, due to the consequences: reinforcement or punishment. The concept of operant conditioning was introduced by Burrhus Frederic Skinner \cite{Skinner1971a,Skinner1971,Skinner1950,Jones1939}, although a similar phenomenon was first extensively studied by \cite{Thorndike1898} a few decades earlier. There is a number of studies on brain activation evoked by the operant conditioning. A group of brain structures responsible for the operant conditioning is widely recognized as part of the rewarding system – neural network responsible for emotions, incentive salience and learning \cite{Schultz2015}. 
 
 Neurofeedback is a procedure that involves real-time displays of brain activity to reward a subject \cite{Kamiya2011}. According to definition, it appears to be a reinforcement learning process and its efficiency critically depends on the extent to which the feedback signal is matched to the particular subject. Feedback signal latency, color, shape, pitch, timbre, etc. are the ergonomic parameters that may potentially strongly affect the efficiency of learning and the intensity of plastic changes – brain’s ability to change throughout life. Finding the proper ergonomic settings for each particular patient has a potential to boost the efficacy of the neurofeedback therapy and to further prove its usefulness in treating various neurological diseases.
-
 \newpage
 \section{Hypothesis}
 \label{sec:Hypothesis}
 
-\subsection{Summary}
-\label{sec:Hypothesis:Summary}
+\subsection{Reinforcement Learning}
+\label{sec:Hypothesis:Reinforcement Learning}
+
+\subsubsection{Definition}
+\label{sec:Hypothesis:Learning Process:Definition}
+
+\textit{Reinforcement learning (RL)} is learning process that involves interaction with the environment. Training occurs due to the RL agent's evaluation of their actions and does not imply the receipt of the external instructions. The agent is in a choice situation, which must be resolved by trial and error. A reinforcement signal is a reward that codes the level of success of resolution of a task. The agent seeks to learn how to maximize reward over time. 
+
+Nowadays reinforcement learning is considered in different fields, including machine learning and neurophysiology, and it is based on the theories classical and instrumental conditioning.
+
+\subsubsection{Historical Background}
+\label{sec:Hypothesis:Learning Process:Historical Background}
+
+\subsubsection{Modern Concepts Of The Learning Process}
+\label{sec:Hypothesis:Learning Process:Modern Concepts Of The Learning Process}
 
 On the one hand, considering the fact that many animals live without a well developed neocortex, like reptiles and anamniotes, many studies seem to focus on the role of basal ganglia (a group of subcortical structures) in the process of learning. For example, it was suggested that the amygdala, an important part of basal ganglia, plays a chemosensory role and also takes part in the formation of emotions, since the amygdala actually participates in mediating emotional reactions to chemical signals \cite{Martinez-Garcia2010}. Anatomical studies have shown that the amygdala is connected to the olfactory bulb, which affects the perception of sexual pheromones. Although, such results might stress the role of basal ganglia in the process of learning, they do not seem to be absolutely relevant to humans, as they have a more developed neocortex that shares some functions of basal ganglia in the animal brain.
 
@@ -177,22 +194,13 @@ Secondly, the most popular theory of frontal beta waves suggests that the power 
 
 Our main concern was that such complex functions as, for example, the processing of the answer, may not reach the threshold of awareness, but will still have physiological correlates, which Gaal and Lamme have shown in one of their studies \cite{VanGaal2012}.
 
-\subsection{Reinforcement Learning}
-\label{sec:Hypothesis:Reinforcement Learning}
-
-\subsubsection{Historical Background}
-\label{sec:Hypothesis:Learning Process:Historical Background}
-
-\subsubsection{Modern Concepts Of The Learning Process}
-\label{sec:Hypothesis:Learning Process:Modern Concepts Of The Learning Process}
-
-\subsection{Bioelectricity}
+\subsection{Neuroelectricity}
 \label{sec:Hypothesis:Bioelectricity}
 
 \subsubsection{Definition}
 \label{sec:Hypothesis:Bioelectricity:Definition}
 
-Bioelectricity is a general term that is used to encompass electrical potentials and currents occurring within or produced by living organisms. Conversion of chemical energy to electrical energy causes bioelectrical processes. The main difference between electricity in biological and artificial systems is that bioelectrical current is a flow of ions, while standard electricity is a movement of electrons.
+\textit{Neuroelectricity} is a type of bioelectricity, relating to the electrical phenomena (as potentials or signals) generated by the nervous system. \textit{Bioelectricity} is a general term that is used to encompass electrical potentials and currents occurring within or produced by living organisms. Conversion of chemical energy to electrical energy causes bioelectrical processes. The main difference between electricity in biological and artificial systems is that bioelectrical current is a flow of ions, while standard electricity is a movement of electrons. Since we conducted a neurophysiological study, in this section we will focus on the role of neuroelectricity.
 
 \subsubsection{Historical Background}
 \label{sec:Hypothesis:Bioelectricity:Historical Background}
@@ -215,79 +223,70 @@ The study of bioelectricity began in 18th century by the physicist \textit{Aless
 
 \textit{Emil Du Bois-Reymond} was the developer of experimental electrophysiology, the study of the electrical properties of biological cells and tissues. He discovered ways of measuring the tiny electrical currents generated by living tissue. \textit{Julius Bernstein}, a German physiologist, who studied medicine at the University of Berlin with Emil Du Bois-Reymond, hypothesised that nerve and muscle fibers are normally polarized, with positive ions on the outside and negative ions on the inside. According to his theory, the current of living systens results from the reverse of the polarization.
 
-\subsubsection{Ions In Solutions}
-\label{sec:Hypothesis:Bioelectricity:Ions In Solutions}
+\subsubsection{Electrical Activity of Single Neurons}
+\label{sec:Hypothesis:Bioelectricity:Electrical Activity of Single Neurons}
 
-Potentials $\phi$, electric field $E$, electrical forces $F$, current density $J$ and sourses $I_{O}$ are linked together, that is each quantity can be found from the one before. 
+In this section, three types of electrical activity of neurons will be considered: the rest potential (RP), the action potenial, the postsynaptic potential (PSP). All of the above types of potentials occur at a microscopic level. It is necessary to give them a definition to deal with the processes occurring at the macroscopic level: the event related potentials (ERP) and neural oscillation. Both ERP and Neural oscillation are of interest in this study, because they can be registered non-invasively. For example, using EEG.
 
-An ion is an atom or molecule with a charge. As soon as ions can move, the presence of ions gives a solution electrical conductivity. Consequently, conductivity $\sigma$ is a measure of how many and how easily charges can move. In bioelectrisity, the consentration of $Na^{+}$, $K^{+}$, $Cl^{-}$ are particularly significant, as the higher the concentrations of these ions, the geater the conductivity, if ease of movement is unchanged. 
+The resting potential (RP) is a relatively stable potential of the cell membrane of an excitable cell (neuron, myocyte). The presence of a resting potential is the result of the vital activity of a neuron, the joint functioning of all cell organelles. The appearance of the $K^{+}$-channels on the membrane is the sign of neuron maturation. Equilibrium potential is ensured by the operation of the sodium-potassium adenosine triphosphatase protein (sodium–potassium pump), which exchanges in-cell $Na^{+}$ ions for $K^{+}$ ions from the intercellular substance, while expending the energy liberated during the cleavage of the ATP molecule to ADP. An ion gradient results from sodium–potassium pump work \cite{Purves2004}. 
 
-\begin{figure}[h!]
-  \begin{center}
-    \begin{circuitikz}
-      \draw (0,0) 
-      to [generic, o-] (2,0) 
-      to [generic, -] (4,0) 
-      to [generic, -o] (6,0) 
-      node [above = 2em] {Membrane};
-      \draw (2,0)
-      to [generic, -] (2,2);
-      \draw (4,0)
-      to [generic, -] (4,2);
-      \draw (0,2) 
-      to [generic, o-] (2,2)
-      to [generic, -, l=Outside (Extracellular Fluid)] (4,2)
-      to [generic, -o] (6,2);
-      \end{circuitikz}
-    \caption{<<Core-conductor model>>}
-  \end{center}
-\end{figure}
+The coming out of $K^{+}$ ions is accompanied by the accumulation of a negative charge inside the cytoplasm. Negative charge gradually slows down the diffusion. After a while, a state of dynamic equilibrium arises, in which the number of $K^{+}$ ions leaving the cell is equal to the number of ions entering one. Therefore, the rest potential is primarily the charge of the membrane of the excited cell, which is provided by the diffusion of potassium ions into the intercellular environment. But there are other ions affecting the RP. Using the Nernst equation, the equilibrium potential of $K^{+}$ and other ions that determine the value of the rest potential can be calculated \cite{Purves2004}.
 
-<<Core-conductor model>> is a simple geometrical model, that retains all essential features of a real nerve fiber. Interior and exterior volumes are both conducting solutions. We can use the standart formula to find resistance from resistivity: $R = \frac{\rho_{i}L}{\pi h^{2}}$.
+\begin{equation}
+E = E^{0} + {\frac{RT}{nF}}\ln{\frac{X_{out}}{X_{in}}}
+\end{equation}
 
-In terms of axial resistance, nerves are not like wires due to large difference in conductivity. 
+where $E_k$ is the equilibrium potential for the ion $X$; $E_0$ is the standard electrode potential; $R$ is the gas constant; $T$ is the absolute temperature; $F$ is the Faraday number; $n$ is the valency of $X$; $[X_{out}]$ - $[X_{in}]$ - external and internal concentrations of $X$.
 
-One gets a transmembrane potential by keeping the negative lead out of the cell and putting the positive lead inside of the cell $V_{trans} = \phi_{inside} - \phi_{outside}$. Axisal potential is got by keeping the negative lead further from the cell body and the positive lead closer to the cell body $V_{axial} = \phi_{b} - \phi_{a}$. 
+One gets an equilibrium potential or transmembrane potential of the resting cell by keeping the negative lead of the voltmeter out of the cell and putting the positive lead inside of the cell $V_{trans} = \phi_{inside} - \phi_{outside}$. Axisal potential is got by keeping the negative lead further from the cell body and the positive lead closer to the cell body $V_{axial} = \phi_{b} - \phi_{a}$.
 
-Assuming that the axial current is uniform it can simply be calculated with Ohm's Law: $I_{x} = \frac{V_{ab}}{R}$.
+$Na^{+}$ ions are fundamentally important. The equilibrium potential for potassium ions in mammals is about $-90 mV$. But due to the normal leakage current of $Na^{+}$, the RP is shifted closer to zero and is approximately $-70 mV$. There are constantly open $Na^{+}$ channels on the membrane of the neuron. The excess of sodium ions in the intercellular environment and the negative charge of the cytoplasm lead to entry of sodium ions into the cell and provide this displacement. The larger offset is limited by the small number of permanently open channel and constant work of sodium–potassium pump \cite{Purves2004}. 
 
-Assuming that the axial current is uniform from $a$ to $b$, the electric field is change in potential divided by change in possition $E_{x} = \frac{\phi_{a}-\phi_{b}}{l_{a}-l_{b}}$. The electric field $E_{x}$ is a measure of the force $F$ that will be exerted on each of the charged particles. So knowing the electric field gives you some insight that you don't have unless you calculate how much that is.
+There are two main types of change in the resting potential arising on neuronal membranes: action potential (AP) and postsynaptic potential (PSP). AP is the response of the nerve cell to stimulation; a discrete depolarization waves propagating from the beginning of the axon on the body of the cell to the axon terminals, where a neuromediator is released into the synaptic cleft. In order to develop a AP, stimulation of the cell must be carried out, shifting the charge of its membrane towards zero. When the potential reaches a threshold value a depolarization wave called AC appeares. The more there are constantly open $Na^{+}$ channels in the cell, the closer the RP to $-70 mV$, which means the stronger the electrical stimulus should be to evoke an AP \cite{Purves2004}.
 
-Once we know the electric field, we can find the axial current density and then the axial current. First, to get the axial current density, we use this expression, and substitute in numbers. The axial current density $J$ in the $X$ direction is equal to the interior conductivity times the electric field $J_{x}=\sigma_{i}E_{x}$ or to the  axial current divided by cross section area $J_{x}=\frac{I}{S}$. 
+Two phases of action can be distinguished: ascending (depolarization) and descending (repolarization). These processes are based on the functions of the important proteins: potentiated-dependent $Na^{+}$ channels that allow the entry of the $Na^{+}$ ions into the cell, which leads to the depolarization; and potential-dependent $K^{+}$ channels that carry out the exit of $K^{+}$ from the cell, which entails the repolarization. A certain kind of channels opens when the charge inside the neuron rises above the threshold value for this channel. When the charge inside the neuron falls below the threshold again, the channels are closed, because the \textit{m}-gate of the channel protein has a positive charge and is drawn to the negatively charged cytoplasm. The \textit{h}-gate of the $Na^{+}$ channel promotes repolarization, because it blocks the channel at the peak of the AP. The \textit{h}-gate also makes the channel insensitive to any stimuli during the AP, because it blocks the $Na^{+}$ channel \cite{Marban1998}. $Na^{+}$ channels open immediately after the stimulation and are soon blocked. $K^{+}$ channels open much more slowly, and close by the time when the charge inside the neuron is in the state of the RP. Thus, $Na^{+}$ ions cause a positive charge in the cell, which is then compensated by the outgoing current of $Na^{+}$ ions, returning the cell to its normal state. Sodium–potassium pump evacuates excess $Na^{+}$ from the cell and returns K + back. The activity of the protein-pump depends on the concentration of sodium and potassium ions in the cytoplasm \cite{Purves2004}.
 
-The membrane resistance is perpendicular to the access of the fiber. In membranes, there are significant voltages and currents between the volumes inside and outside the membrane. In wires there is basically no current across the insulation that isolates the wire from another wire. At rest the membrane resistivity is approximatelly $\rho_{m} \approx 1500\Omega cm^{2}$, thus the membrane resistance for the segment can be computed if the surface area of the segment is known $R=\frac{\rho}{2 \pi r h}$. Membrane resistance $R \approx 48 M\Omega$ is much smaller in comparison with most wire resistance $R \approx 1 G\Omega$. 
+The AP propagates along the axon as a result of the depolarization of the neuron membrane arising around the initial point of the AP generation. The AP triggers the release of the mediator when reaches the presynaptic end. A significant increase in the rate of depolarization is achieved due to the myelination of axons by glial cells (oligodendrocytes in the central nervous system). Myelin is a lipid-rich substance; dozens of layers of a glial cell membrane wrapped around an axon. Being a good insulator, the myelin allows the AP to occur only in specific areas (Ranvier nodes). As a result, the AP is transmitted serially, from interception to interception. The Ranvier node area is usually insignificant in comparison with the myelinated area, therefore the speed of impulse transmission in the case myelination reaches the colossal values of $100-120$ m/s in mammalis \cite{Purves2004}. 
 
-Membrane current has, by convention, a positive sign when outward and can also be computed with Ohm's low. 
+PSP is a temporary change in the polarization of a neuron membrane caused by a chemical transmission or an electrical impulse in the synapse. PSP can lead to the launch of a new AP in case of reaching the generation threshold.
 
-\subsubsection{Membrane Patch And Electricity Of Patches}
-\label{sec:Hypothesis:Bioelectricity:Membrane Patch And Electricity Of Patches}
+While the duration of the AP is only a few seconds, the duration of PSP can reach several hundred milliseconds. Moreover, the appearance of the PSP is usually limited to dendrites and the cell body, and does not extend along the axons. Thereby, the PSP are usually summed up, which allows them to be recorded at a great distance, for example, when the electrodes are located on the surface of the head, rather than directly among the cell bodies. 
 
-The patch clamp technique is a laboratory technique in electrophysiology used to study ionic currents in individual isolated living cells, tissue sections, or patches of cell membrane. The technique is especially useful in the study of excitable cells such as neurons, cardiomyocytes, muscle fibers, and pancreatic beta cells, and can also be applied to the study of bacterial ion channels in specially prepared giant spheroplasts. (rewrite!!!)
+In case of presence of the excitatory mediator, $Na^{+}$ channels are opened, which causes the membrane potential to move closer to zero, but not close enough to the threshold value for the PD generation. This charge displacement is called \textit{the excitatory postsynaptic potential (EPSP)}. If there is a sufficient amount of mediator on the postsynaptic cell, the potential reaches the threshold value and triggers the AP. The AP can be triggered by repeated stimulation (temporary summation) or by superposition of EPSP from different synapses (spatial summation). Taking under consideration the huge number of synapses formed between neurons, these two processes coexist. Moreover, there are inhibitory synapses and mediators. They prevent the transmission of a signal. When the inhibitory mediator hits the receptor, ligand-dependent (protein binding ion or molecule dependant) $K^{+}$ channels are opened, after which the charge of the cytoplasm shifts further away from zero. Along with the $K^{+}$ channels, the $Cl^{-}$ channels are opened. The concentration of chlorine in the intercellular fluid is much higher, therefore, when the channels are opened, ions enter the cell in large quantities and lead to even more hyperpolarization. This change in potential is called \textit{the inhibitory postsynaptic potential (TPPS)}. The TPPS interacts with EPSP according to the principles of spatial and temporal summation, preventing the launch of the AP. Complex control of the nervous system is carried out by both inhibition and excitation. The interaction of the synapses underlies all the brain functions. Therefore, the brain functions largely depends not on the number of neurons, but on the number of synapses. 
 
-A patch is a segment of membrane that is large enough to have all of the esential pumps and channels present and for application of statistics to them, and yet small enough that the voltage is constant over the patch. Patches are between 10 and 100 $\mu m$ in diameter. 
+\subsubsection{Neural Oscillation}
+\label{sec:Hypothesis:Bioelectricity:Neural Oscillation}
 
-How does membrane charge itself up, genereting trancemembrane voltage? First, the membrane pumps potassium ions inside and sodium ions outside of a cell via sodium-potassium adenosine triphosphatase (sodium–potassium pump).
+\textit{Neural oscillation (brain wave)} is a rhythmic repetitive activity generated by the nervous system. \textit{Hans Berger (1873 – 1941)}, the German psychiatrist, the inventor of the first encephalograph, discovered neural oscillations for the first time in 1924. He was afraid of publishing his results, because he could not believe that due to his invention a human can be examined by non-invasive methods. 
 
-\begin{figure}[H]
-\centering
-\includegraphics[width=0.7\linewidth]{Sodium_Potassium_Pump.jpg}
-\caption{Mechanism sodium–potassium pump}\label{fig:Sodium_Potassium_Pump.jpg}
-\end{figure}
+On the one hand, neural oscillations can be represented by periodic generation of the action potential, that is, a rhythmic change in the membrane potential of the cell. This is a microscopic level of consideration of neural oscillations, because such activity can be detected when recording an individual cell. On the other hand, neuronal ensembles can be synchronized to generate the AP, leading to the oscillations formation in different frequency bands. Such activation might represent a mesoscopic level activation of groups of neurons in one limited area of the nervous system, or a macroscopic level, which is realized when several brain structures interact with each other. The cortico-thalamic loop, which plays a fundamental role in the formation of alpha rhythm, is an example of a macroscopic connection between different structures \cite{Domino2009,Bollimunta2011}. In this study, we will focus on macroscopic level; on four major types of brain waves: \textit{alpha}, \textit{beta}, \textit{delta}, \textit{theta}.
 
-\begin{enumerate}
-\item The enzyme binds adenosine triphosphatase (ATP).
-\item The enzyme binds three sodium ions.
-\item Ions change the conformation of the active center of sodium–potassium pump. After this, the enzyme is capable of hydrolyzing one molecule of ATP.
-\item ATP is hydrolyzed and ADP is released. Consequently, the pump is phosphorylated at a highly conserved aspartate residue.
-\item
-\end{enumerate}
+\textit{Alpha-wave (7 – 14 Hz)} is thought to be generated by thalamic pacemakers (rythmicly generating the AP neurons) \cite{Domino2009}. It can be registered in the occipital areas of the brain during relaxed wakefulness or with closed eyes. The alpha-wave is characterized by so-called <<spindles>> - the modulation of the alpha-wave, expressed in a change in amplitude\cite{Buzsaki2009}.
+
+\textit{Beta-wave (12 – 31 Hz)} has a two-sided symmetrical localization. Basically, activation in the beta band is found in the frontal areas of the brain. The best beta-rhythm is distinguishable in the state of active wakefulness, in spite of the fact that it is small in amplitude; during mental tasks; during concentration on the subject; during the successful completion of the task \cite{Buzsaki2009,Engel2010}. 
+Beta-wave is also sometimes divided into lower (12-16 Hz), medium (16-20 Hz) and upper (20-30 Hz) subcomponents \cite{Rangaswamy2003}.
+
+\textit{}
+
+
+
+\subsubsection{Event-related potentials}
+\label{sec:Hypothesis:Bioelectricity:Event-related potentials}
+
+ \textit{The event-related potential (ERP)} is the electrophysiological brain response various event: cognitive or sensory. Modern researchers use the term "event-related potentials" as a synonym for the term <<evoked potential>> although in a more general sense, <<event-related potentials>> include <<evoked potentials>> \cite{Luck2005}. The contemporary idea of the origin of ERP is complex and is yet to be fully understood. Biological and technical definitions of ERP will be presented below. 
+
+When the neuromediator reaches the presynaptic ends of the dendrites of the cortical pyramidal cells, the current begins to flow into the cell, changing the potential at the membrane surface in the dendritic region. Then the current flows from the bodies of neurons and proximal parts of the dendrites, thus creating a region with an positive potential. Positive and negative potentials, separated by small distances, form dipoles (a separation of positive and negative charges; potential difference) on the cell surface \cite{Rugg1995}. The electric field generated by one neuron is so weak that it is almost impossible to record it on the scalp with an electrode. The total electric field created by several dipoles can be recorded. In order for the summation to take place, the appearance of dipoles on neurons should not largly differ in time. Potentials changes on different neurons should occur within a few hundred milliseconds. Moreover, the cells must be spatially aligned. If axons of neurons are directed to each other, and dendrites are in opposite directions, positive charges that have arisen on one neuron can be compensated by the negative charges that have arisen on the other. Most co-directional neurons, whose total potentials can be measured - are cortical pyramidal neurons that are aligned perpendicular to the surface \cite{Luck2005}. 
+
+ERP is a set of changes in the potential differences contained within the epoch EEG (recording around the event) related to the stimulus in time. The size of the change is small (only a few microvolts), while the amplitude of the EEG in which they are contained, as a whole, reaches a few dozens of microvolts. The process of getting ERP consists of the extraction of it from the general background EEG. This process usually includes recording of several EEG epochs related to a repeating stimulus or event in time and the averaging of recorded epochs associated in time with the same stimulus. If the potential changes within individual epochs are not related in time with the stimulus, averaging will reduce all values for each time point to zero \cite{Luck2005}. 
+
+It is possible to calculate the distribution of the ERP by the scalp if there is information about the localization of dipoles. However, it is impossible to calculate the localization of dipoles in the analysis of the data obtained from the scalp, because the potential difference recorded on the scalp does not occur from one group of dipoles, but from summation. Thus, it is impossible to accurately determine the location of the ERP \cite{Rugg1995}. 
 
 \subsection{Neurofeedback}
 \label{sec:Hypothesis:Neurofeedback}
 
 \textit{\textbf{Biological feedback} (biofeedback, BFB)} is a process in which the subject is presented with some visual representation of their physiological state, as a result of which the subject can somehow manipulate it. The method of \textit{\textbf{neural feedback} (neurofeedback, NFB)} – also known as EEG biofeedback – is a special case of biological feedback, that measures brain waves to generate a signal that can be used as feedback to teach self-regulation of subject's brain function. 
 
-The method of neural feedback has been used since the 1960s and became an effective non-invasive treatment tool for patients with a various disorders, such as epilepsy \cite{Strehl2014,Kotchoubey2001}, attention deficit hyperactivity disorder (ADHD) \cite{Leins2007,Sonuga-Barke2013,Thompson2005}, autistic spectrum disorder (ASD) \cite{Kouijzer2009,Thompson2009}, strokes \cite{Rayegani2014}, tinnitus \cite{Hartmann2014}, emotional disorders \cite{Raymond2005} and posttraumatic stress disorder \cite{Othmer2009}. However, it is not widespread enough, in favor of invasive therapy, because it cannot be accurately established during the use of the neural feedback method, whether the patient is on the mend or not. The judgements can only be made after a while whether the seizures are repeated or not. Or, in extreme cases, introspectively. This problem even has a special name: the «Neurofeedback Inefficiency Problem». With the advent of methods of neurovisualization, it became clear that the effectiveness of training can be associated with the activation in the frontal areas of the cortex of the cerebral hemispheres, what we’ve described above. Therefore, probably today, a method of monitoring the learning process in the paradigm of neural feedback can be found. During the operant conditioning of any rhythm in the neural feedback paradigm, it is necessary to control beta-rhythm activation in the frontal areas during effective training, which is likely to be related to maintaining the current motor or cognitive state associated with effective learning \cite{Engel2010}.
+The method of neural feedback has been used since the 1960s and became an effective non-invasive treatment tool for patients with a various disorders, such as epilepsy \cite{Strehl2014,Kotchoubey2001}, attention deficit hyperactivity disorder (ADHD) \cite{Leins2007,Sonuga-Barke2013,Thompson2005}, autistic spectrum disorder (ASD) \cite{Kouijzer2009,Thompson2009}, strokes \cite{Rayegani2014}, tinnitus \cite{Hartmann2014}, emotional disorders \cite{Raymond2005} and posttraumatic stress disorder \cite{Othmer2009}. However, it is not widespread enough, in favor of invasive therapy, because it cannot be accurately established during the use of the neural feedback method, whether the patient is on the mend or not. The judgements can only be made after a while whether the seizures are repeated or not. Or, in extreme cases, introspectively. This problem even has a special name: the «Neurofeedback Inefficiency Problem». With the advent of methods of neurovisualization, it became clear that the effectiveness of training can be associated with the activation in the frontal areas of the cortex of the cerebral hemispheres, what we’ve described above. Therefore, probably today, a method of monitoring the learning process in the paradigm of neural feedback can be found. During the operant conditioning of any rhythm in the neural feedback paradigm, it is necessary to control beta-rhythm activation in the frontal areas during effective training, which is likely to be related to maintaining the current motor or cognitive state associated with effective learning \cite{Engel2010}. 
 
 \newpage
 \section{Method}
@@ -314,10 +313,27 @@ To test the effectiveness of the mathematical algorithm described above, we firs
 \subsection{Data Analysis}
 \label{sec:Methods:Data Analysis}
 
+\subsubsection{Test statistics}
+\label{sec:Methods:Data Analysis:Test statistics}
+
+Test statistic is a mathematical rule by which a statistical hypothesis is accepted or rejected with a certain level of significance. Here we briefly describe several statistics. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\linewidth]{z-scores.jpg}
+\caption{Z-score on a normal distribution and corresponding $p-values$}\label{fig:z-scores.jpg}
+\end{figure}
+
+\textit{Z-scores (z-values, normal scores, standard scores standardized variables)} is the standard deviations $\sigma$ signed number by which a data point value $x$ is above the measured mean value $E[X]$ (Eq.~\ref{eq:zscore}). This statistic is frequently used to compare a data point to a standard normal variable, so the $p-value$ can be calculated from it easily (Fig. \ref{fig:z-scores.jpg}). 
+
+\begin{equation} \label{eq:zscore}
+Z = \frac{x - E[x]}{\sigma}
+\end{equation}
+
 \subsubsection{Common Spatial Pattern}
 \label{sec:Methods:Data Analysis:Common Spatial Pattern}
 
-The common spatial pattern (CSP) technique maximizes the difference between two windows $X_{1}$ and $X_{2}$ of the multivariate signal for separating into additive subcomponents (Eq. 1). If $X_{i}$ is a matrix $n_{i} X t_{i}$, where $n_{i}$ – number of channel and $t_{i}$ – number of samples, such a problem can be solved by computing the two covariance matrices (Eq. 2) and the subsequent spectral decomposition of these two matrices (Eq. 3).
+The common spatial pattern (CSP) technique maximizes the difference between two windows $X_{1}$ and $X_{2}$ of the multivariate signal for separating into additive subcomponents (Eq. 1). If $X_{i}$ is a matrix $n_{i}$ by $t_{i}$, where $n_{i}$ – number of channel and $t_{i}$ – number of samples, such a problem can be solved by computing the two covariance matrices (Eq. 2) and the subsequent spectral decomposition of these two matrices (Eq. 3).
 
 The $CSP(X1, X2)$ function used in the following sections gets two windows of the multivariate signal as arguments and returns an eigenvalue corresponding to the analyzed component that should be used in the next statistical test.
 
@@ -336,11 +352,56 @@ C^{-1}_{2}C_{1} = PDP^{-1}
 \subsubsection{Tikhonov Regularization}
 \label{sec:Methods:Data Analysis:Tikhonov Regularization}
 
+\textit{The Tikhonov regularization}, or sometimes $L_2$ regularization \cite{Ng2004}, that is called after \textit{Andrey Tikhonov}, a Soviet and Russian mathematician and geophysicist, is the most commonly used method of regularization of ill-posed problems $Ax = u$. 
+
+The basic idea is to find an approximate solution of the equation $Ax = u$ in the form $x_{\delta} = R(u_{\delta}\alpha)$, where $R(u_{\delta}\alpha)$ is the regularizing operator, $\alpha$ – hyperparameter ($\alpha > 0$). When $u_{\delta} \rightarrow u_{T}$, while $\delta \rightarrow 0$, the approximate solution $x_{\delta} \rightarrow x_{T}$ of the equation $Ax = u_{T}$.
+
+In a general form, which was applied in our algorythm, Tikhonov's regularization can be formulated in the following form: 
+
+\begin{equation}
+x' = x_0 + (A^{T}PA + Q)^{-1}(A^{T}P(b-Ax_{0}),
+\end{equation}
+
+where $x'$ is the optimal solution, $x_0$ is the mathematical expectation of $x$, $P$ is the covariance matrix, and $Q$ is the inverted covariance matrix $x$ \cite{Tikhonov1963}.
+
+In our case the Tikhonov regularization is applied to eigendecomposition $C^{-1}_{2}C_{1} = PDP^{-1}$ in an ill-posed CSP case.
+
+% \begin{equation}
+% C = \frac{C}{\sum_{j=1}^{n} C_{jj}}
+% \end{equation}
+
+% \begin{equation}
+% C = \frac{C}{\sum_{j=1}^{n} C_{jj}}
+% \end{equation}
+
 \subsubsection{Nonparametric Statistical Testing Of EEG Data}
 \label{sec:Methods:Data Analysis:Nonparametric Statistical Testing Of EEG Data}
 
+In our study we tested the null hypothesis $H_0: F(D_r| I=1) =  F(D_r|I=2)$, where $D_r (r = 1, . . . , n)$ are the protocols to which the data was divided for two different conditions. 
+
+The following statistics function was used: $S(d_r, I) = CSP(X_1, X_2)$, where $d_r$ is the observed signal; $X_1$ is the signal window for the first condition, $X_2$ is the signal window for the second condition.
+
+The zero distribution was calculated as follows: $S(d_r, I) ~ F(S(D, I)|{D} = {d})$, where ${d}$ is the permuted signal \cite{Maris2007}. 
+
 \subsubsection{False Discovery Rate Correction}
 \label{sec:Methods:Data Analysis:False Discovery Rate Correction}
+
+Assume that $N$ hypotheses $H_1, H_2 ... Hn$ were tested. Resulting $p-value$ values are $p_1, p_2, ... p_n$ respectivly. The parameter $q$, the maximum number of falsely rejected null hypotheses, is defined. Then the $p-value$ are sorted in ascending order: $p^*_1 \leqslant p^*_2 \leqslant ... , \leqslant p^*_n$. $p^*_i$corresponds to $H^*_i$.
+
+\begin{equation}
+p(i) \leqslant \frac{iq}{N}
+\end{equation}
+
+According to Eq. 5, $p^*_i$ is chosen, for which $H^*_1, ... , H^*_{i-1}$ is rejected. 
+
+\begin{equation}
+q(i) \leqslant \frac{p_N}{i}
+\end{equation}
+
+The value of $q$ can be calculated not for the entire p-value set, but for each $p^*_i$ separately (Eq. 6), which was applied in our algorithm \cite{Benjamini1995}.
+
+Later, the authors proposed a modification of the correction for those cases in which independence can not be proved \cite{Benjamini2001}. In our case, the significance of the difference between the eigenvalues and the zeroth distribution is tested. They characterize linearly independent eigenvectors, and therefore independence is proved for them. 
+ 
 
 \newpage
 \section{Results}
@@ -362,6 +423,10 @@ We’re still not certain if the areas related to effective learning may be used
 \section*{Acknowledgements}
 \label{sec:Acknowledgements}
 \addcontentsline{toc}{section}{Acknowledgements}
+
+I would like to express my gratitude to my advisor professor Alexey E. Ossadtchi, PhD, for the continuous support of my undergraduate thesis study and research, for suggesting me the hard, but incredibly interesting research problem, for his comments, suggestions and immense knowledge.
+
+I also would like to give my thanks to Nikolai M. Smetanin, MSc, for his help in programming, math and physics, and for moral support in difficult times. 
 
 \newpage
 \section*{Appendices}
