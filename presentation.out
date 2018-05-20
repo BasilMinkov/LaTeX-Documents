@@ -12,16 +12,17 @@
 \BOOKMARK [3][-]{subsubsection.2.2.5}{Event-related potentials}{subsection.2.2}% 12
 \BOOKMARK [2][-]{subsection.2.3}{Neurofeedback}{section.2}% 13
 \BOOKMARK [1][-]{section.3}{Method}{}% 14
-\BOOKMARK [2][-]{subsection.3.1}{Summary}{section.3}% 15
-\BOOKMARK [2][-]{subsection.3.2}{Experimental Design}{section.3}% 16
+\BOOKMARK [2][-]{subsection.3.1}{Materials and Setup}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.2}{Eye Blink Artifact Rejection}{section.3}% 16
 \BOOKMARK [2][-]{subsection.3.3}{Data Analysis}{section.3}% 17
-\BOOKMARK [3][-]{subsubsection.3.3.1}{Test statistics}{subsection.3.3}% 18
+\BOOKMARK [3][-]{subsubsection.3.3.1}{Z-score}{subsection.3.3}% 18
 \BOOKMARK [3][-]{subsubsection.3.3.2}{Common Spatial Pattern}{subsection.3.3}% 19
 \BOOKMARK [3][-]{subsubsection.3.3.3}{Tikhonov Regularization}{subsection.3.3}% 20
 \BOOKMARK [3][-]{subsubsection.3.3.4}{Nonparametric Statistical Testing Of EEG Data}{subsection.3.3}% 21
 \BOOKMARK [3][-]{subsubsection.3.3.5}{False Discovery Rate Correction}{subsection.3.3}% 22
-\BOOKMARK [1][-]{section.4}{Results}{}% 23
-\BOOKMARK [1][-]{section.5}{Conclusions}{}% 24
-\BOOKMARK [1][-]{section*.4}{Acknowledgements}{}% 25
-\BOOKMARK [1][-]{section*.5}{Appendices}{}% 26
-\BOOKMARK [1][-]{section*.6}{References}{}% 27
+\BOOKMARK [2][-]{subsection.3.4}{Experimental Design}{section.3}% 23
+\BOOKMARK [1][-]{section.4}{Results}{}% 24
+\BOOKMARK [1][-]{section.5}{Conclusions}{}% 25
+\BOOKMARK [1][-]{section*.6}{Acknowledgements}{}% 26
+\BOOKMARK [1][-]{section*.7}{Appendices}{}% 27
+\BOOKMARK [1][-]{section*.8}{References}{}% 28

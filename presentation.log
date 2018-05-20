@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.14)  19 MAY 2018 19:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2018.3.14)  20 MAY 2018 05:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1615,6 +1615,7 @@ Package tocbasic Info: Using my definition of `\numberline' on input line 21.
 Package tocbasic Info: Using my definition of `\numberline' on input line 22.
 Package tocbasic Info: Using my definition of `\numberline' on input line 23.
 Package tocbasic Info: Using my definition of `\numberline' on input line 24.
+Package tocbasic Info: Using my definition of `\numberline' on input line 25.
 )
 \tf@toc=\write7
 \openout7 = `presentation.toc'.
@@ -1624,50 +1625,68 @@ LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 167.
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 170.
- [4] [5]
-<images/Galvani.jpg, id=215, 876.27374pt x 1201.48875pt>
+ [4] [5] [6] [7]
+<images/Galvani.jpg, id=248, 876.27374pt x 1201.48875pt>
 File: images/Galvani.jpg Graphic file (type jpg)
 
 <use images/Galvani.jpg>
-Package pdftex.def Info: images/Galvani.jpg used on input line 212.
+Package pdftex.def Info: images/Galvani.jpg used on input line 232.
 (pdftex.def)             Requested size: 113.81102pt x 156.03401pt.
- <images/Volta.jpg, id=216, 401.5pt x 543.02875pt>
+ <images/Volta.jpg, id=249, 401.5pt x 543.02875pt>
 File: images/Volta.jpg Graphic file (type jpg)
 
 <use images/Volta.jpg>
-Package pdftex.def Info: images/Volta.jpg used on input line 217.
+Package pdftex.def Info: images/Volta.jpg used on input line 237.
 (pdftex.def)             Requested size: 113.81102pt x 153.92792pt.
- [6] [7 <./images/Galvani.jpg> <./images/Volta.jpg>]
-[8] [9] [10] [11] [12] [13]
+ [8 <./images/Galvani.jpg> <./images/Volta.jpg>] [9]
+[10] [11] [12] [13] [14]
 LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/it' tried instead on input line 287.
- [14] [15] [16]
-<images/z-scores.jpg, id=361, 344.59174pt x 183.5658pt>
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 305.
+ [15] [16]
+Overfull \hbox (0.26657pt too wide) in paragraph at lines 316--317
+\T1/ptm/m/n/14.4 cal Com-puter Sys-tems, Moscow, Rus-sia). This en-cephalo-grap
+h sup-ports record-
+ []
+
+<images/ica.png, id=382, 624.08156pt x 468.24937pt>
+File: images/ica.png Graphic file (type png)
+ <use images/ica.png>
+Package pdftex.def Info: images/ica.png used on input line 325.
+(pdftex.def)             Requested size: 318.66948pt x 239.1041pt.
+
+[17 <./images/ica.png (PNG copy)>]
+<images/z-scores.jpg, id=393, 344.59174pt x 183.5658pt>
 File: images/z-scores.jpg Graphic file (type jpg)
 
 <use images/z-scores.jpg>
-Package pdftex.def Info: images/z-scores.jpg used on input line 323.
+Package pdftex.def Info: images/z-scores.jpg used on input line 341.
 (pdftex.def)             Requested size: 318.66948pt x 169.77048pt.
- [17] [18 <./images/z-scores.jpg>] [19] [20] [21]
-[22]
+ [18 <./images/z-scores.jpg>] [19]
+<images/nps.png, id=416, 1005.7575pt x 556.0775pt>
+File: images/nps.png Graphic file (type png)
+ <use images/nps.png>
+Package pdftex.def Info: images/nps.png used on input line 392.
+(pdftex.def)             Requested size: 318.66948pt x 176.18353pt.
+
+[20 <./images/nps.png>] [21] [22] [23] [24] [25] [26]
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 423.
+ne 462.
 
-[23]
+[27]
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
 (scrartcl)              from within a non compatible caller, that does not
 (scrartcl)              \scr@s@ct@@nn@m@ locally.
 (scrartcl)              This could result in several error messages on input li
-ne 432.
+ne 473.
 
-[24] (./presentation.bbl
+[28] (./presentation.bbl
 
 Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              You've used the KOMA-Script implementation of \@ssect
@@ -1676,23 +1695,23 @@ Class scrartcl Warning: incompatible usage of \@ssect detected.
 (scrartcl)              This could result in several error messages on input li
 ne 1.
 
-[25] [26] [27]) [28]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 439.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 439.
+[29] [30] [31] [32]) [33]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 480.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 480.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 439.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 439.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 480.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 480.
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: A4EFFEC9EA165E82EE9697A550898C48;1850.
+(rerunfilecheck)             Checksum: C4E62D6260B53ABB7268CC2104F8A912;1932.
  ) 
 Here is how much of TeX's memory you used:
- 32217 strings out of 492995
- 673085 string characters out of 6132704
- 1029227 words of memory out of 5000000
- 35126 multiletter control sequences out of 15000+600000
+ 32271 strings out of 492995
+ 674004 string characters out of 6132704
+ 1029226 words of memory out of 5000000
+ 35162 multiletter control sequences out of 15000+600000
  70842 words of font info for 124 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 73i,12n,77p,8850b,533s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 73i,12n,77p,8850b,551s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
 xlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
@@ -1704,10 +1723,10 @@ dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/texmf-dist/fonts
 /type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ur
 w/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/urw/times/ut
 mri8a.pfb>
-Output written on presentation.pdf (28 pages, 484739 bytes).
+Output written on presentation.pdf (33 pages, 957940 bytes).
 PDF statistics:
- 501 PDF objects out of 1000 (max. 8388607)
- 445 compressed objects within 5 object streams
- 105 named destinations out of 1000 (max. 500000)
- 244 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 574 PDF objects out of 1000 (max. 8388607)
+ 505 compressed objects within 6 object streams
+ 121 named destinations out of 1000 (max. 500000)
+ 262 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -9,45 +9,45 @@ Warning--empty publisher in Martinez-Garcia2010
 Warning--empty publisher in Purves2004
 Warning--empty publisher in Rugg1995
 Warning--empty publisher in Thompson2009
-You've used 38 entries,
+You've used 46 entries,
             1940 wiz_defined-function locations,
-            743 strings with 11962 characters,
-and the built_in function-call counts, 17531 in all, are:
-= -- 1656
-> -- 939
-< -- 28
-+ -- 335
-- -- 334
-* -- 1692
-:= -- 3044
-add.period$ -- 108
-call.type$ -- 38
-change.case$ -- 354
-chr.to.int$ -- 37
-cite$ -- 44
-duplicate$ -- 563
-empty$ -- 1075
-format.name$ -- 396
-if$ -- 3319
+            795 strings with 13163 characters,
+and the built_in function-call counts, 20370 in all, are:
+= -- 1934
+> -- 1069
+< -- 33
++ -- 379
+- -- 378
+* -- 1947
+:= -- 3561
+add.period$ -- 128
+call.type$ -- 46
+change.case$ -- 416
+chr.to.int$ -- 45
+cite$ -- 52
+duplicate$ -- 659
+empty$ -- 1250
+format.name$ -- 450
+if$ -- 3843
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 38
-newline$ -- 187
-num.names$ -- 114
-pop$ -- 301
+missing$ -- 42
+newline$ -- 223
+num.names$ -- 138
+pop$ -- 346
 preamble$ -- 1
-purify$ -- 357
+purify$ -- 419
 quote$ -- 0
-skip$ -- 438
+skip$ -- 515
 stack$ -- 0
-substring$ -- 1171
-swap$ -- 111
+substring$ -- 1358
+swap$ -- 123
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 222
+type$ -- 270
 warning$ -- 6
-while$ -- 137
+while$ -- 161
 width$ -- 0
-write$ -- 478
+write$ -- 570
 (There were 6 warnings)

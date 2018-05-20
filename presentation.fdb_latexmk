@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex presentation"] 1526747413 "presentation.aux" "presentation.bbl" "presentation" 1526747885
-  "/Users/basilminkov/Scripts/latex/alpha_feedback/AlphaFeedback.bib" 1526741699 85837 e4eade495ac921f64a856f9d5ae31f07 ""
+["bibtex presentation"] 1526783875 "presentation.aux" "presentation.bbl" "presentation" 1526783877
+  "/Users/basilminkov/Scripts/latex/alpha_feedback/AlphaFeedback.bib" 1526783736 100269 0aa4822311302ca14e3570a5bc3cb789 ""
   "/usr/local/texlive/2017/texmf-dist/bibtex/bst/beebe/apa.bst" 1480098434 23582 e3c8338eb1efb7432441aa8861285f53 ""
-  "presentation.aux" 1526747885 10769 7b4710419089241a7201ad070051d686 ""
+  "presentation.aux" 1526783876 12552 1048b2dc3a0978a0af17477d7216a685 ""
   (generated)
-  "presentation.bbl"
   "presentation.blg"
-["pdflatex"] 1526747884 "presentation.tex" "presentation.pdf" "presentation" 1526747885
+  "presentation.bbl"
+["pdflatex"] 1526783875 "presentation.tex" "presentation.pdf" "presentation" 1526783877
   "/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/base/8r.enc" 1480098666 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2017/texmf-dist/fonts/map/fontname/texfonts.map" 1480098670 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2017/texmf-dist/fonts/tfm/adobe/helvetic/phvb8r.tfm" 1480098688 4484 b828043cbd581d289d955903c1339981 ""
@@ -234,15 +234,17 @@
   "/usr/local/texlive/2017/texmf.cnf" 1495593465 577 2b71d4d888f9e5560b2e99985915a9fa ""
   "images/Galvani.jpg" 1522866052 205325 0860c941236639656d3936fc5b8ec845 ""
   "images/Volta.jpg" 1522867025 84120 9fc62a38d3c4c8d63cbaca9f2240cbac ""
+  "images/ica.png" 1526749171 129600 83f8888574b6488927df978c0e8d8d96 ""
+  "images/nps.png" 1526748118 398134 2bd6dbfafd1abc1ab98329a1d0fffcb0 ""
   "images/z-scores.jpg" 1526746909 31692 d3117900c6ce44769baa19b6f79a607c ""
-  "presentation.aux" 1526747885 10769 7b4710419089241a7201ad070051d686 ""
-  "presentation.bbl" 1526747413 10767 108682688c6fdec72d74636db3642115 "bibtex presentation"
-  "presentation.out" 1526747885 1850 a4effec9ea165e82ee9697a550898c48 ""
-  "presentation.tex" 1526747883 41612 9b46f40f0f27945a49be739be9598c8e ""
-  "presentation.toc" 1526747885 2527 5ff63924061ccf83ba41a77476298889 ""
+  "presentation.aux" 1526783876 12552 1048b2dc3a0978a0af17477d7216a685 ""
+  "presentation.bbl" 1526783875 12384 5b63c8144f8d8382f595536ddeed7e95 "bibtex presentation"
+  "presentation.out" 1526783876 1932 c4e62d6260b53abb7268cc2104f8a912 ""
+  "presentation.tex" 1526783869 50538 bdf68091fefe9e1db43d02b769d2a058 ""
+  "presentation.toc" 1526783876 2633 8bb63833ec72a4248e5df417bc394729 ""
   (generated)
-  "presentation.pdf"
-  "presentation.log"
-  "presentation.out"
   "presentation.toc"
   "presentation.aux"
+  "presentation.log"
+  "presentation.out"
+  "presentation.pdf"
