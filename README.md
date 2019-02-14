@@ -9,3 +9,7 @@ This document contains the text of my undergraduate thesis on the correlates of 
 2. Graduate Coursework
 
 Here I keep my current work on bioinformatics and electrophysiology of sleep. It's in russian so far. 
+
+3. library.bib
+
+BibTeX of my Mendeley library.
